@@ -54,7 +54,7 @@ export function OverviewAnalyticsView() {
   
   // 車流量
   useEffect(() => {
-    fetch("traffic_predict/assets/csv/vehicle_count.csv")
+    fetch("/Traffic_Prediction/assets/csv/vehicle_count.csv")
       .then((response) => response.blob()) // 使用 blob 讀取檔案
       .then((blob) => {
 

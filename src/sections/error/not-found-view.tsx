@@ -24,7 +24,7 @@ export function NotFoundView() {
 
         <Box
           component="img"
-          src="/traffic_predict/assets/illustrations/illustration-404.svg"
+          src="/Traffic_Prediction/assets/illustrations/illustration-404.svg"
           sx={{
             width: 320,
             height: 'auto',

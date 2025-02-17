@@ -3,19 +3,19 @@ import { SvgColor } from 'src/components/svg-color';
 // ----------------------------------------------------------------------
 
 const icon = (name: string) => (
-  <SvgColor width="100%" height="100%" src={`/assets/icons/navbar/${name}.svg`} />
+  <SvgColor width="100%" height="100%" src={`/Traffic_Prediction/assets/icons/navbar/${name}.svg`} />
 );
 const HOMEPAGE = import.meta.env.VITE_PUBLIC_URL || '';
 
 export const navData = [
   {
     title: '車流量分析資料',
-    path: '/traffic_predict',
+    path: '/Traffic_Prediction',
     icon: icon('ic-analytics'),
   },
   {
     title: '車輛違規查詢',
-    path: '/traffic_predict/violation',
+    path: '/Traffic_Prediction/violation',
     icon: icon('ic-user'),
   },
   // {
@@ -35,7 +35,7 @@ export const navData = [
   // },
   {
     title: 'Sign in',
-    path: '/traffic_predict/sign-in',
+    path: '/Traffic_Prediction/sign-in',
     icon: icon('ic-lock'),
   },
   // {

@@ -36,5 +36,5 @@ export default defineConfig({
   },
   server: { port: PORT, host: true },
   preview: { port: PORT, host: true },
-  base: '/traffic_predict', // 設定 GitHub Pages 的專案名稱路徑
+  base: '/Traffic_Prediction', // 設定 GitHub Pages 的專案名稱路徑
 });

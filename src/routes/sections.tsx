@@ -43,14 +43,14 @@ export function Router() {
         </DashboardLayout>
       ),
       children: [
-        { path: '/traffic_predict', element: <HomePage />, index: true },
-        { path: '/traffic_predict/violation', element: <ViolationPage /> },
+        { path: '/Traffic_Prediction', element: <HomePage />, index: true },
+        { path: '/Traffic_Prediction/violation', element: <ViolationPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },
       ],
     },
     {
-      path: '/traffic_predict/sign-in',
+      path: '/Traffic_Prediction/sign-in',
       element: (
         <AuthLayout>
           <SignInPage />

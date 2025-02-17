@@ -55,7 +55,7 @@ export const Logo = forwardRef<HTMLDivElement, LogoProps>(
       <Box
         alt="brand logo"
         component="img"
-        src='/traffic_predict/assets/images/brand_logo.png'
+        src='/Traffic_Prediction/assets/images/brand_logo.png'
         sx={{
           transform: "scale(2)", // 放大倍數
           display: "block", // 避免 inline-block 造成的間距問題

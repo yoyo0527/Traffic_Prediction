@@ -30,7 +30,7 @@ export function UserView() {
 
   // 違規車輛
   useEffect(() => {
-    fetch("traffic_predict/assets/csv/car_violations.xlsx")  // 讀取 Excel 檔案
+    fetch("/Traffic_Prediction/assets/csv/car_violations.xlsx")  // 讀取 Excel 檔案
       .then((response) => response.arrayBuffer()) // 轉換為 ArrayBuffer
       .then((buffer) => {
         const workbook = XLSX.read(buffer, { type: "array", cellDates: true });
