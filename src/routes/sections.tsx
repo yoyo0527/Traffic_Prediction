@@ -43,7 +43,7 @@ export function Router() {
         </DashboardLayout>
       ),
       children: [
-        { path: '/Traffic_Prediction', element: <HomePage />, index: true },
+        { element: <HomePage />, index: true },
         { path: '/Traffic_Prediction/violation', element: <ViolationPage /> },
         { path: 'products', element: <ProductsPage /> },
         { path: 'blog', element: <BlogPage /> },

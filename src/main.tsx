@@ -8,11 +8,11 @@ import App from './app';
 // ----------------------------------------------------------------------
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
-const HOMEPAGE = import.meta.env.VITE_PUBLIC_URL || '';  // 使用 Vite 的環境變數
+
 root.render(
   <StrictMode>
     <HelmetProvider>
-      <BrowserRouter basename={HOMEPAGE}>
+      <BrowserRouter basename='/Traffic_Prediction'>
         <Suspense>
           <App />
         </Suspense>

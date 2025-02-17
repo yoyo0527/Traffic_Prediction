@@ -5,12 +5,11 @@ import { SvgColor } from 'src/components/svg-color';
 const icon = (name: string) => (
   <SvgColor width="100%" height="100%" src={`/Traffic_Prediction/assets/icons/navbar/${name}.svg`} />
 );
-const HOMEPAGE = import.meta.env.VITE_PUBLIC_URL || '';
 
 export const navData = [
   {
     title: '車流量分析資料',
-    path: '/Traffic_Prediction',
+    path: '/',
     icon: icon('ic-analytics'),
   },
   {
